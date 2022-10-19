@@ -142,7 +142,7 @@ index css 設定
 	/* background-image: url(../image/header_desktop.png);
 	background-repeat: no-repeat;
 	background-position: center center; */
-	background-color: black;
+	background-color: #272727;
 	position: relative;
 }
 @media(max-width: 500px){
@@ -152,7 +152,7 @@ index css 設定
 }
 @media(max-width: 376px){
 	.banner{
-		height: 320px;
+		height: 250px;
 	}
 }
 .banner_conter{
@@ -264,7 +264,27 @@ index css 設定
     justify-content: end;
     margin-top: 22px;
 }
-
+.banner_box_h{
+	max-width:1024px;
+}
+@media(max-width: 768px){
+	.banner_box_h{
+		max-width:768px;
+	}
+}
+@media(max-width: 500px){
+	.banner_box_h{
+		max-width:500px;
+	}
+}
+@media(max-width: 368px){
+	.banner_box_h{
+		max-width:368px;
+	}
+}
+ .h-100{
+	margin: 0 auto ;
+}
 /* 
 參考別人的漢堡
  */

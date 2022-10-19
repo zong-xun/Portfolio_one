@@ -15,11 +15,7 @@ $('.map_btn_open').on('click',function(){
     if(map_data.name == "" || map_data.tel == "" || map_data.email == "" || map_data.number =="" || map_data.vegetarian == ""){
         $("#exampleModalLabel").text("資料填寫未完畢");
         $("#mistake").text("資料填寫未完畢");
-        $('#dialog_name').text("");
-        $('#dialog_tel').text("");
-        $('#dialog_email').text("");
-        $('#dialog_number').text("");
-        $('#dialog_veg').text("");
+        $('#dialog_name,#dialog_veg,#dialog_number,#dialog_email,#dialog_tel').text("");
     } else{
         $("#mistake").text("");
         $("#exampleModalLabel").text("感謝您的定位");
