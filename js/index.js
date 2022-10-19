@@ -1,4 +1,4 @@
-$('.map_btn').on('click',function(){
+$('.map_btn_open').on('click',function(){
     let map_data = {
         name : " ",
         tel : " ",
@@ -30,6 +30,12 @@ $('.map_btn').on('click',function(){
         $('#dialog_veg').text("是否需要素食 : " + map_data.vegetarian);
     }
 
+    $("input[name='contact']:checked")[0].checked = false;
+    $('input[name="contact"]')[0].checked = true; 
+    $('#map_name,#map_tel,#map_email,#map_number').val(" ")
+});
+
+$('.map_btn_close').on('click',function(){
     $("input[name='contact']:checked")[0].checked = false;
     $('input[name="contact"]')[0].checked = true; 
     $('#map_name,#map_tel,#map_email,#map_number').val(" ")
