@@ -168,27 +168,27 @@
                 <div class="map_img"></div>
                 <div class="map_input">
                     <p>姓名</p>
-                    <input type="text">
+                    <input type="text" id="map_name">
                     <p>電話</p>
-                    <input type="tel">
+                    <input type="tel" id="map_tel">
                     <p>信箱</p>
-                    <input type="email">
+                    <input type="email" id="map_email">
                     <p>人數</p>
-                    <input type="number">
+                    <input type="number" id="map_number">
                     <div>
                         <form>
                             <p>是否需要素食</p>
                             <div class="map_radio">
-                                <input type="radio" id="contactChoice1" name="contact">
+                                <input type="radio" id="contactChoice1" name="contact" value="是" checked>
                                 <label class="map_radio_label" for="contactChoice1">是</label>
-                                <input type="radio" id="contactChoice2" name="contact">
+                                <input type="radio" id="contactChoice2" name="contact" value="否">
                                 <label for="contactChoice2">否</label>
                             </div>
                         </form>
                     </div>
                     <div class="map_btn">
                         <input type="button" value="取消">
-                        <input type="button" value="送出">
+                        <input type="button" value="送出" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     </div>
                 </div>
             </div>
@@ -220,6 +220,32 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title dialog_title" id="exampleModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="mistake"></p>
+                    <p id="dialog_name">
+                    </p>
+                    <p id="dialog_number">
+                    </p>
+                    <p id="dialog_tel">
+                    </p>
+                    <p id="dialog_email">
+                    </p>
+                    <p id="dialog_veg">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js'
         integrity='sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A=='
         crossorigin='anonymous'></script>
@@ -227,6 +253,7 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
     <script src="../js/all.js"></script>
+    <script src="../js/index.js"></script>
 </body>
 
 </html>
