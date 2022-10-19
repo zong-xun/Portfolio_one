@@ -1,0 +1,136 @@
+.register{
+    display: flex;
+    justify-content: center;
+    height: 390px;
+    align-items: center;
+    background: #EFE9E7;
+}
+@media(max-width: 768px){
+    .register{
+        height: 100%;
+    }
+}
+@media(max-width: 768px){
+    .register_box{
+        height: 100%;
+        display: block;
+        margin: 30px 0;
+    }
+}
+.register_box{
+    border: 1px solid;
+    padding: 0 18px;
+    /* width: 270px; */
+    height: 300px;
+    background: #EFE9E7;
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+    border-radius: 3px;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    max-width: 600px;
+}
+@media(max-width: 768px){
+    .register_box{
+        height: 100%;
+        display: block;
+        margin: 30px 0;
+    }
+}
+.register_box p:first-child{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #3D1101;
+    font-weight: bold;
+}
+.register_box_text{
+    font-size: 14px;
+    color: #FF5E45;
+}
+/* .register_box p{
+    padding: 12px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #3D1101;
+    font-weight: bold;
+} */
+.input_box label{
+    display: flex;
+    color: #3D1101;
+    font-weight: bold;
+}
+.input_box input{
+    width: 95%;
+    height: 20px;
+    margin-top: 3px;
+    margin-bottom: 16px;
+}
+
+.btn_box{
+    text-align: center;
+    margin-top: 28px;
+}
+.btn_box input{
+width: 125px;
+height: 32px;
+color:#FFFFFF ;
+border: none;
+cursor: pointer; 
+}
+
+.btn_box input:first-child{
+    background: rgba(0,0,0,0.35);
+    border-radius: 3px;
+}
+.btn_box input:last-child{
+    background: #F56C23;
+    border-radius: 3px;
+}
+
+.btn_box input:hover{
+    background-color: red;
+}
+
+.register_box_input{
+    width: 60%;
+    max-width: 300px;
+    margin-left: 30px;
+}
+@media(max-width: 768px){
+    .register_box_input{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 26px;
+    }
+}
+.terms{
+    width: 30%;
+    margin-top: 5%;
+}
+
+@media(max-width: 768px){
+    .terms{
+        width: 100%;
+        border-bottom: 1px solid;
+    }
+}
+.terms p:first-child{
+    padding: 0;
+    text-align: start;
+}
+@media(max-width: 768px){
+    .terms p:first-child{
+        padding: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .terms p{
+        margin-bottom: 27px;
+        }
+}
+.terms p{
+font-size: 18px;
+color: #3D1101;
+}

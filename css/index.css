@@ -1,0 +1,334 @@
+.feature{
+	padding: 50px 70px;
+	background-color: #FFF3EE;
+}
+@media(max-width: 768px){
+    .feature{
+        padding: 50px 25px;
+    }
+}
+.feature_box{
+	display: flex;
+    align-items: center;
+	justify-content: center;
+}
+.feature_box_text{
+	font-size: 20px;
+	color: #3D1101;
+	line-height: 32px;
+	text-align: center;
+	font-weight: bold;
+}
+.feature_line{
+	width: 80px;
+	border-bottom: 1px solid #979797;
+}
+.feature_line:first-child{
+	margin-right: 13px;
+}
+.feature_line:last-child{
+	margin-left: 13px;
+}
+.feature_list{
+	display: flex;
+	color: #3D1101;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-top: 31px;
+}
+
+@media(max-width: 500px){
+    .feature_list{
+        display: block;
+    }
+}
+.feature_list p{
+	text-align: center;
+	margin: 20px 0 11px 0;
+}
+@media(max-width: 500px){
+    .feature_list p{
+        font-size: 26px;
+    }
+}
+
+.feature_list span{
+	line-height: 22px;
+}
+.feature_list1,.feature_list2, .feature_list3{
+	width: 31%;
+	margin: 0 1.5% 0 1.5%;
+}
+@media(max-width: 500px){
+    .feature_list1,.feature_list2, .feature_list3{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .feature_list3{
+        margin-bottom: 0px;
+    }
+}
+.feature_img1,.feature_img2,.feature_img3{
+	height: 200px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+@media(max-width: 768px){
+    .feature_img1,.feature_img2,.feature_img3{
+        height: 140px;
+        width: 140px;
+    }
+}
+@media(max-width: 500px){
+    .feature_img1,.feature_img2,.feature_img3{
+        height: 200px;
+        width: 200px;
+    }
+}
+.feature_img1{
+	background-image: url(../image/feature_1.png);
+}
+.feature_img2{
+	background-image: url(../image/feature_2.png);
+}
+.feature_img3{
+	background-image: url(../image/feature_3.png);
+}
+/* .LOGO{
+	width: auto;
+	background-image: url(../image/logo_w@svg.svg);
+} */
+.chef{
+    background: #3D1101;
+    display: flex;
+    align-items: center;
+}
+@media(max-width: 500px){
+    .chef{
+        display: block;
+    }
+}
+.chef_img{
+    background-image: url(../image/main_chef_brown.png);
+    height: 460px;
+	width: 48%;
+    margin-left: 2%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+@media(max-width: 500px){
+    .chef_img{
+        width: 98%;
+        margin: 0 auto;
+    }
+}
+.chef_text{
+    margin: 0 2%;
+    font-size: 16px;
+    width: 46%;
+    color: #EFE9E7;
+}
+@media(max-width: 500px){
+    .chef_text{
+        width: 96%;
+    }
+}
+.chef_text p:first-child{
+    font-size: 20px;
+}
+@media(max-width: 500px){
+    .chef_text p:first-child{
+        font-size: 25px;
+        text-align: center;
+        margin: 16px 0;
+    }
+}
+.chef_text p:nth-child(2){
+    margin-bottom: 16px;
+}
+@media(max-width: 500px){
+    .chef_text p:nth-child(2){
+        text-align: center;
+    }
+}
+.chef_text p:last-child{
+    line-height: 20px;
+}
+@media(max-width: 500px){
+    .chef_text p:last-child{
+        text-align: center;
+        padding-bottom: 16px;
+    }
+}
+.impression{
+    background-color: #FFF3EE;
+    padding: 50px 0;
+}
+.impression_text p{
+    font-size: 24px;
+    color: #3D1101;
+    text-align: center;
+    padding: 0 0 32px 0;
+}
+.impression_box{
+    display: flex;
+}
+@media(max-width: 500px){
+    .impression_box{
+        display: block;
+    }
+}
+.impression_img1,.impression_img2,.impression_img3{
+    height: 67px;
+	width: 67px;
+	background-repeat: no-repeat;
+	background-position: center center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.impression_img1{
+    background-image: url(../image/avatar_1.png);
+}
+.impression_img2{
+    background-image: url(../image/avatar_2.png);
+}
+.impression_img3{
+    background-image: url(../image/avatar_3.png);
+}
+.impression_box1,.impression_box2,.impression_box3{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 500px){
+    .impression_box1,.impression_box2,.impression_box3{
+        margin-bottom: 25px;
+    }
+    .impression_box3{
+        margin-bottom: 0px;
+    }
+}
+.impression_box_text{
+    width: 65%;
+    font-size: 16px;
+    color: #3D1101;
+}
+.impression_box_text p:first-child{
+    font-size: 18px;
+    margin: 22px 0 22px 13px;
+}
+.impression_box_text p:nth-child(2){
+    margin-left: 13px;
+    line-height: 22px;
+}
+.impression_box_text p:last-child{
+    color: rgba(61,17,0,0.75);
+    margin-top: 16px;
+    text-align: end;
+}
+.map{
+    padding: 50px 0;
+}
+.map_text{
+    text-align: center;
+    font-size: 24px;
+    color: #3D1101;
+    line-height: 34px;
+}
+.map_box{
+    /* margin: 0 3%; */
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 500px){
+    .map_box{
+        display: block;
+    }
+}
+.map_img{
+    height: 386px;
+	width: 460px;
+    background-image: url(../image/Map.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+@media(max-width: 500px){
+    .map_img{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+.map_input{
+    width: 50%;
+    margin: 0px 42px 0 20px ;
+
+}
+@media(max-width: 500px){
+    .map_input{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 14px;
+    }
+}
+.map_input input{
+    width: 98%;
+    height: 24px;
+    margin-left: 4px;
+    margin-bottom: 12px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+}
+.map_input p{
+    font-size: 14px;
+    color: #3D1101;
+    margin-bottom: 6px;
+}
+.map_radio{
+    display: flex;
+    margin-top: 10px;
+}
+.map_radio input{
+    width: 16px;
+    height: 16px;
+    box-shadow: none;
+    margin: 0;
+}
+.map_radio_label{
+    margin-right: 36px;
+}
+.map_btn {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+.map_btn input{
+    width: 70px;
+    height: 32px;
+    background: rgba(0,0,0,0.35);
+    border-radius: 3px;
+    color:#FFFFFF ;
+    border: none;
+    cursor: pointer; 
+}
+.map_btn input:first-child{
+    background: rgba(0,0,0,0.35);
+    border-radius: 3px;
+}
+.map_btn input:last-child{
+    background: #F56C23;
+    border-radius: 3px;
+}
+
+.map_btn input:hover{
+    background-color: red;
+}
+
